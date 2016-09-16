@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativLayout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/map_marker"
+            android:gravity="center"
+            android:text="@string/location_name"
+            android:textColor="@color/digital_text" />
+
+        <RelativeLayout
+            android:id="@+id/relativLayout_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_location"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="@string/time_string"
+                android:textColor="@color/md_white_1000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView_day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView_day_of_month"
+                android:layout_toRightOf="@+id/textView_time"
+                android:text="MON"
+                android:textColor="@color/md_white_1000" />
+
+            <TextView
+                android:id="@+id/textView_day_of_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView_time"
+                android:layout_toRightOf="@+id/textView_time"
+                android:paddingRight="10dp"
+                android:text="05"
+                android:textColor="@color/md_white_1000"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView_steps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/walk"
+                android:text="@string/steps_count"
+                android:textColor="@color/md_white_1000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="|"
+                android:textColor="@color/md_white_1000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView_battery_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/battery_full"
+                android:text="@string/battery_percentage"
+                android:textColor="@color/md_white_1000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView_weather"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/art_clear"
+            android:baselineAlignBottom="@+id/textView_max_temp"
+            android:layout_below="@id/relativLayout_date_time"
+            android:layout_toLeftOf="@+id/textView_max_temp" />
+
+        <TextView
+            android:id="@+id/textView_min_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/relativLayout_date_time"
+            android:drawableLeft="@drawable/arrow_down"
+            android:paddingRight="15dp"
+            android:text="@string/min_temp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_max_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView_min_temp"
+            android:layout_alignBottom="@+id/textView_min_temp"
+            android:layout_toStartOf="@+id/textView_min_temp"
+            android:drawableLeft="@drawable/arrow_up"
+            android:paddingRight="5dp"
+            android:text="@string/max_temp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

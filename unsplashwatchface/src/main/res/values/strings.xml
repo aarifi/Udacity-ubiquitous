@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Unsplash Watch Face</string>
+    <string name="my_digital_name">Sunshine Dynamic</string>
+    <string name="time_string">15:23</string>
+    <string name="max_temp">0°</string>
+    <string name="min_temp">0°</string>
+    <string name="battery_percentage">60%</string>
+    <string name="location_name">Prishtina</string>
+    <string name="steps_count">300</string>
+</resources>
