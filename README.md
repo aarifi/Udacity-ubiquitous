@@ -25,10 +25,8 @@ This sample uses the Gradle build system.  To build this project, use the
 
 ##Screnshoots
 
-![ScreenShot](Udacity-ubiquitous/unsplashwatchface/Screenshot/02.jpg) | ![ScreenShot](https://github.com/aarifi/Make-Your-App-Material/blob/master/XYZReader/ScreenShot/2.png?raw=true)
+![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true) | ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/03.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/04.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/05.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true)
 
-
-![ScreenShot](https://github.com/aarifi/Make-Your-App-Material/blob/master/XYZReader/ScreenShot/3.png?raw=true) | ![ScreenShot](https://github.com/aarifi/Make-Your-App-Material/blob/master/XYZReader/ScreenShot/4.png?raw=true)  ![ScreenShot](https://github.com/aarifi/Make-Your-App-Material/blob/master/XYZReader/ScreenShot/5.png?raw=true)
 
 Support
 -------
