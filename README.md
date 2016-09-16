@@ -34,7 +34,8 @@ This sample uses the Gradle build system.  To build this project, use the
 <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true" height="400"/>
 <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true" height="400"/>
 <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true" height="400"/>
-</p>                                                                                                                        />
+</p>          
+
 Support
 -------
 
