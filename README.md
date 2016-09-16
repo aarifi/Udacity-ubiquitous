@@ -25,11 +25,15 @@ This sample uses the Gradle build system.  To build this project, use the
 
 ##Screnshoots
 
-![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true) | ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/03.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/04.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/05.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true)| ![ScreenShot](https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true)
 
 <p align="center">
-  <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true" width="350"/>
-  <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true" width="350"/>
+  <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true" width="300"/>
+  <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/03.jpg?raw=true" width="300"/>
+   <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/04.jpg?raw=true" width="300"/>
+    <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/05.jpg?raw=true" width="300"/>
+     <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true" width="300"/>
+      <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true" width="300"/>
+       <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true" width="300"/>
 </p>
 Support
 -------
