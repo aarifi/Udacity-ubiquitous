@@ -27,14 +27,14 @@ This sample uses the Gradle build system.  To build this project, use the
 
 
 <p align="center">
- <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true"/>
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/03.jpg?raw=true" />
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/04.jpg?raw=true" />
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/05.jpg?raw=true" />
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true" />
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true" />
-<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true" />
-</p>
+ <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true" width="300" />
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/03.jpg?raw=true" width="300"/>
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/04.jpg?raw=true" width="300"/>
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/05.jpg?raw=true" width="300"/>
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/06.jpg?raw=true" width="300"/>
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/07.jpg?raw=true" width="300"/>
+<img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/08.jpg?raw=true" width="300"/>
+</p>                                                                                                                        />
 Support
 -------
 
