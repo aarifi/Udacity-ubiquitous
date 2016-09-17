@@ -104,6 +104,8 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
             }
         };
         private final Point displaySize = new Point();
+
+
         //region declare variable
         boolean mRegisteredTimeZoneReceiver = false;
         GoogleApiClient mGoogleApiClient;
@@ -130,11 +132,11 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         private String mHighTemp;
         private String mLowTemp;
         private String locationName;
-
-
-        //endregion
         private Bitmap weather_icon;
         private DateTime dateTime;
+
+        //endregion
+
         final BroadcastReceiver mTimeZoneReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
