@@ -22,6 +22,7 @@ public class UnsplashApi {
         this.context = context;
     }
 
+    //Instance of class
     public static UnsplashApi getUnsplashApiInstance(Context context) {
         if (unsplashApiInstance == null) {
             unsplashApiInstance = new UnsplashApi(context);
@@ -33,6 +34,7 @@ public class UnsplashApi {
     public IUnsplashEndpoint getIUnsplashEndpoint(String base_url) {
         final OkHttpClient okHttpClient = new OkHttpClient();
 
+        //retrofit addapter
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(base_url)
                 .addConverterFactory(GsonConverterFactory.create())
@@ -42,6 +44,8 @@ public class UnsplashApi {
         return iUnsplashEndpoint;
     }
 
+
+    //Get Image
     public Observable<Image> getStringObservable() {
         return getIUnsplashEndpoint("https://source.unsplash.com/user/erondu/daily").getUnsplashResponsObservable();
     }
