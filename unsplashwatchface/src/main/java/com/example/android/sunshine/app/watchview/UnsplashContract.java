@@ -38,6 +38,8 @@ public interface UnsplashContract {
 
         void setBateryPercentage();
 
+        void remindmetobringumbrell();
+
         void registerReceiver();
 
         void unregisterReceiver();

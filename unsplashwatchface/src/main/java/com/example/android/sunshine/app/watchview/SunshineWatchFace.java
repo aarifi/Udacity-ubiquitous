@@ -496,6 +496,11 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         }
 
         @Override
+        public void remindmetobringumbrell() {
+            
+        }
+
+        @Override
         public void registerReceiver() {
 
             if (mRegisteredTimeZoneReceiver) {
