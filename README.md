@@ -24,7 +24,7 @@ This sample uses the Gradle build system.  To build this project, use the
 
 
 ##Screnshoots
-Different background color
+Different background color, you only need to click once.
 
 <p align="center">
  <img src="https://github.com/aarifi/Udacity-ubiquitous/blob/master/unsplashwatchface/Screenshot/02.jpg?raw=true" height="400" />
