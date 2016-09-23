@@ -40,6 +40,8 @@ public interface UnsplashContract {
 
         void remindmetobringumbrell();
 
+        void showNearbyWatch();
+
         void registerReceiver();
 
         void unregisterReceiver();

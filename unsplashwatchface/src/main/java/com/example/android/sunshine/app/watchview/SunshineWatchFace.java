@@ -501,6 +501,11 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         }
 
         @Override
+        public void showNearbyWatch() {
+            
+        }
+
+        @Override
         public void registerReceiver() {
 
             if (mRegisteredTimeZoneReceiver) {
