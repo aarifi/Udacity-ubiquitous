@@ -17,7 +17,7 @@ public class Constants {
     public static final String FIREBASE_CLASS_BACKGROUND = "background";
 
 
-    //Weather
+    //Weather constants, used same on app
     public static final String WEATHER_PATH = "/weather";
     public static final String WEATHER_INFO_PATH = "/weather-info";
 
