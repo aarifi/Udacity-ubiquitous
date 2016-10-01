@@ -388,7 +388,14 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                 DateTime.Property dProperty = dateTime.dayOfWeek();
 
                 textView_time.setText(finalyTime);
-                textView_day_of_month.setText(dayOfMonth);
+                if (dayOfMonth.length() >= 2) {
+                    textView_day_of_month.setText(dayOfMonth);
+
+                } else {
+                    dayOfMonth = "0" + dayOfMonth;
+                    textView_day_of_month.setText(dayOfMonth);
+
+                }
                 textView_day_of_week.setText(dProperty.getAsText(Locale.getDefault()).substring(0, 3).toUpperCase());
 
                 Log.d(TAG, "setDateAndTime: " + dateTime.getHourOfDay() + ":" + dateTime.getMinuteOfHour() + dProperty.getAsText(Locale.getDefault()));
@@ -448,7 +455,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         @Override
         public void setWeatherData(String hhTem, String lTem) {
             Log.d(TAG, "setWeatherData: " + hhTem + " " + lTem);
-            if (mHighTemp !=null) {
+            if (mHighTemp != null) {
                 textView_max_temp.setVisibility(View.VISIBLE);
                 textView_location.setVisibility(View.VISIBLE);
                 imageView_weather.setVisibility(View.VISIBLE);
@@ -456,8 +463,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                 textView_min_temp.setText(lTem);
                 textView_location.setText(locationName.substring(0, 1).toUpperCase() + locationName.substring(1).toLowerCase());
                 imageView_weather.setImageBitmap(weather_icon);
-            }
-            else {
+            } else {
                 textView_max_temp.setVisibility(View.INVISIBLE);
                 textView_location.setVisibility(View.INVISIBLE);
                 imageView_weather.setVisibility(View.INVISIBLE);
@@ -497,12 +503,12 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
 
         @Override
         public void remindmetobringumbrell() {
-            
+
         }
 
         @Override
         public void showNearbyWatch() {
-            
+
         }
 
         @Override
